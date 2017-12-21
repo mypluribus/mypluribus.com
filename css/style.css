@@ -1,0 +1,105 @@
+
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt|Libre+Barcode+128+Text);
+
+body{
+	text-align : center;
+	height : 100%;
+	background-position : 0% 100%;
+	background-attachment : fixed;
+	font-size : 12pt;
+	margin : -.001em;
+	background-color: #19697F;
+	background-color: #2dbfe8;
+	background-color: #eee; 
+}
+
+ul, ol {list-style:none;}
+
+#wrapper {
+	height : 100%;
+}
+
+#wrapper div#header {
+	padding : 3em;
+	padding-left : 10%;
+	padding-right : 10%;
+	text-align : left;
+	background: white;
+	border-bottom: 10px solid #0C3440;	
+	border-bottom: 10px solid #2dbfe8;
+	height: 45%;
+}
+#wrapper div#header div#logo {}
+
+#wrapper div#header ul.contact {
+	width: 300px;
+	margin-left: 7%;
+	margin-top: 2%;
+}
+
+
+#wrapper div#header ul.contact li a{
+	text-decoration : none;
+	color : #fff;
+	padding:5px 5px 5px 75px;	
+	margin: 15px;
+	margin-left: 0;
+	font-family:'Rock Salt', Arial, Helvetica, sans-serif;
+	font-size:1.25em;
+	color:#868686;
+	font-weight:normal;
+	background-size: contain;
+	display: block;
+}
+
+#wrapper div#header ul.contact li a.linkedin {
+	background: url(../img/linkedin.png) no-repeat 0 0;
+	background-size: contain;
+}
+
+#wrapper div#header ul.contact li a.twitter {
+	background: url(../img/twitter.png) no-repeat 0 0;
+	background-size: contain;
+}
+
+#wrapper div#header ul.contact li a.github {
+	background: url(../img/github.png) no-repeat 0 0;
+	background-size: contain;
+}
+
+#wrapper div#header ul.contact li a.blog {
+	background: url(../img/pen.png) no-repeat 0 0;
+	background-size: contain;
+}
+
+#wrapper div#content {
+	padding-left : 3em;
+	padding-top : 1em;
+	margin-left : auto;
+	margin-right : auto;
+	width : 80%;
+}
+
+#wrapper div#content div#menu {}
+#wrapper div#content div#body {
+	text-align : left;
+}
+#wrapper div#content div#body div.title {
+	display : inline;
+	font-size : 6em;
+	font-size : 7em;
+	font-family: 'Libre Barcode 128 Text'; 
+	padding-left: 4%;
+}
+#wrapper div#content div#body div.pic img {
+	position : absolute;
+	top : 40%;
+	right : 10%;
+	width: 300px;
+	border : 10px solid #2dbfe8; 
+	padding: 5px;
+	float : right;
+    border-radius: 100%;
+	background-color: white;
+}
+
